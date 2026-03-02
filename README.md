@@ -1,5 +1,3 @@
-# analisis-pozos-no-convencionales
-EDA + ML para producción de pozos no convencionales (Argentina)
 # Predicción de Producción Mensual en Pozos No Convencionales (Argentina)
 
 Como ingeniero vinculado a la industria Oil & Gas, uno de los desafíos más frecuentes es estimar el comportamiento productivo de un pozo a lo largo del tiempo.  Este proyecto nace como parte de mi proceso de formación en Ciencia de Datos, con la intención de explorar cómo técnicas de Machine Learning pueden complementar el análisis tradicional de producción.
