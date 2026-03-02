@@ -6,7 +6,7 @@ Como ingeniero vinculado a la industria Oil & Gas, uno de los desafíos más fre
 
 Desarrollar un modelo capaz de estimar la producción mensual de petróleo por pozo, utilizando información geológica, operativa y el comportamiento histórico del mismo. El enfoque está orientado a generar una herramienta que pueda apoyar el análisis operativo y la detección temprana de desvíos productivos.
 
-## Enfoque  técnico:
+## Enfoque técnico:
 
 El proyecto incluye:
 
@@ -29,7 +29,7 @@ Se eligió Random Forest debido a:
 
 El desempeño del modelo fue evaluado utilizando R² y RMSE en escala real, luego de revertir la transformación logarítmica aplicada al target. Se obtuvo un R² = 0.9435, lo que indica que el modelo explica aproximadamente el 94% de la variabilidad observada en la producción mensual de petróleo. Esto refleja una buena capacidad para capturar la dinámica productiva general de los pozos, especialmente considerando la alta dispersión y heterogeneidad del dataset.
 
-El RMSE fue de 203.96 unidades de producción mensual, medido en escala real. Esta métrica permite dimensionar el error promedio de predicción en términos operativos. Dado que el dataset presenta una fuerte concentración de producción en ciertos pozos y presencia de valores extremos, este nivel de error resulta coherente con la escala y variabilidad natural del sistema.
+El RMSE fue de 203.96 m^3 de producción mensual, medido en escala real. Esta métrica permite dimensionar el error promedio de predicción en términos operativos. Dado que el dataset presenta una fuerte concentración de producción en ciertos pozos y presencia de valores extremos, este nivel de error resulta coherente con la escala y variabilidad natural del sistema.
 
 Más allá de las métricas globales, se realizó un análisis detallado mediante:
 
