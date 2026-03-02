@@ -27,7 +27,7 @@ Se eligió Random Forest debido a:
 
 ## Resultados
 
-El desempeño del modelo fue evaluado utilizando **R² y RMSE en escala real**, luego de revertir la transformación logarítmica aplicada al target. Se obtuvo un **R² cercano a 0.94**, lo que indica que el modelo explica una gran proporción de la variabilidad observada en la producción mensual.  El **RMSE obtenido se mantiene bajo en relación a la escala de producción**, lo que refleja que el error promedio de predicción es razonable para un dataset con alta dispersión y presencia de valores extremos.
+El desempeño del modelo fue evaluado utilizando **R² y RMSE en escala real**, luego de revertir la transformación logarítmica aplicada al target. Se obtuvo un **R² cercano a 0.94**, lo que indica que el modelo explica una gran proporción de la variabilidad observada en la producción mensual.  El **RMSE obtenido se mantiene bajo (203.9628) en relación a la escala de producción**, lo que refleja que el error promedio de predicción es razonable para un dataset con alta dispersión y presencia de valores extremos.
 
 Más allá de las métricas, se realizó un análisis detallado de resultados mediante:
 - comparación real vs predicho
