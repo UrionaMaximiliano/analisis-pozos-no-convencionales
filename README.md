@@ -27,14 +27,16 @@ Se eligió Random Forest debido a:
 
 ## Resultados
 
-El desempeño del modelo fue evaluado utilizando **R² y RMSE en escala real**, luego de revertir la transformación logarítmica aplicada al target. Se obtuvo un **R² cercano a 0.94**, lo que indica que el modelo explica una gran proporción de la variabilidad observada en la producción mensual.  El **RMSE obtenido se mantiene bajo (203.9628) en relación a la escala de producción**, lo que refleja que el error promedio de predicción es razonable para un dataset con alta dispersión y presencia de valores extremos.
+El desempeño del modelo fue evaluado utilizando R² y RMSE en escala real, luego de revertir la transformación logarítmica aplicada al target. Se obtuvo un R² = 0.9435, lo que indica que el modelo explica aproximadamente el 94% de la variabilidad observada en la producción mensual de petróleo. Esto refleja una buena capacidad para capturar la dinámica productiva general de los pozos, especialmente considerando la alta dispersión y heterogeneidad del dataset.
 
-Más allá de las métricas, se realizó un análisis detallado de resultados mediante:
-- comparación real vs predicho
-- análisis de los mayores errores absolutos
-- visualización de curvas mensuales individuales por pozo
+El RMSE fue de 203.96 unidades de producción mensual, medido en escala real. Esta métrica permite dimensionar el error promedio de predicción en términos operativos. Dado que el dataset presenta una fuerte concentración de producción en ciertos pozos y presencia de valores extremos, este nivel de error resulta coherente con la escala y variabilidad natural del sistema.
 
-El modelo reproduce adecuadamente la tendencia productiva y la continuidad mensual de los pozos. Los mayores errores se observan en valores extremos (picos o caídas abruptas), algo esperable en un contexto donde pocos pozos concentran gran parte del volumen total y donde pueden intervenir factores operativos no modelados.
+Más allá de las métricas globales, se realizó un análisis detallado mediante:
+_ Comparación real vs predicho
+_ Análisis de los mayores errores absolutos
+_ Visualización de curvas mensuales individuales por pozo
+
+El modelo reproduce adecuadamente la tendencia productiva y la continuidad mensual de los pozos. Los mayores errores se observan en valores extremos (picos o caídas abruptas), donde pueden intervenir factores operativos no modelados o comportamientos atípicos que el modelo tiende a suavizar.
 
 ## Aplicaciones potenciales
 
