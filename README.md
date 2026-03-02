@@ -32,6 +32,7 @@ El desempeño del modelo fue evaluado utilizando R² y RMSE en escala real, lueg
 El RMSE fue de 203.96 unidades de producción mensual, medido en escala real. Esta métrica permite dimensionar el error promedio de predicción en términos operativos. Dado que el dataset presenta una fuerte concentración de producción en ciertos pozos y presencia de valores extremos, este nivel de error resulta coherente con la escala y variabilidad natural del sistema.
 
 Más allá de las métricas globales, se realizó un análisis detallado mediante:
+
 _ Comparación real vs predicho
 _ Análisis de los mayores errores absolutos
 _ Visualización de curvas mensuales individuales por pozo
