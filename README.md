@@ -33,9 +33,9 @@ El RMSE fue de 203.96 unidades de producción mensual, medido en escala real. Es
 
 Más allá de las métricas globales, se realizó un análisis detallado mediante:
 
-_ Comparación real vs predicho
-_ Análisis de los mayores errores absolutos
-_ Visualización de curvas mensuales individuales por pozo
+- Comparación real vs predicho
+- Análisis de los mayores errores absolutos
+- Visualización de curvas mensuales individuales por pozo
 
 El modelo reproduce adecuadamente la tendencia productiva y la continuidad mensual de los pozos. Los mayores errores se observan en valores extremos (picos o caídas abruptas), donde pueden intervenir factores operativos no modelados o comportamientos atípicos que el modelo tiende a suavizar.
 
